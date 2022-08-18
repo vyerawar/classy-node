@@ -63,7 +63,7 @@ else
 fi
 
 printf "Running build\n"
-yarn run build
+yarn run prepublish
 
 printf "Creating version\n"
 yarn version --${VERSIONTYPE}
